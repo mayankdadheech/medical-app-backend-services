@@ -1,0 +1,9 @@
+{
+  "name": "medical-app-backend-services",
+  "version": "0.1",
+  "description": "Node js is used forbackend services in medial app.",
+  "main": "index.js",
+  "repository": "https://github.com/mayankdadheech/medical-app-backend-services.git",
+  "author": "mayankdadheech <mayank.dadheech@gmail.com",
+  "license": "MIT"
+}
