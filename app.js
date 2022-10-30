@@ -19,9 +19,9 @@ app.use(express.json());
 app.use(userRouter);
 
 app.get('/', async (req, res) => {
-    const user = await User.find()
-    console.log(user);
-    res.send('Hello world');
+    // const user = await User.find()
+    console.log("user");
+    res.send({data: 'Hello world'});
   });
 
   app.post('/', async (req, res) => {
