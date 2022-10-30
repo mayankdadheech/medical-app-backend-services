@@ -39,7 +39,7 @@ exports.createUser = async (req, res) => {
       });
   
     const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
-      expiresIn: '1d',
+      expiresIn: '7d',
     });
   
     let oldTokens = user.tokens || [];
@@ -58,7 +58,7 @@ exports.createUser = async (req, res) => {
     });
   
     const userInfo = {
-      fullname: user.fullname,
+      fullname: user.name,
       email: user.email,
       avatar: user.avatar ? user.avatar : '',
     };
