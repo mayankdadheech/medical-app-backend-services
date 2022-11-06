@@ -1,2 +1,2 @@
 # medical-app-backend-services
-hello app
+This is Order Medicine Application to Order medicines, Book a Doctor and Book a Lab Test.
